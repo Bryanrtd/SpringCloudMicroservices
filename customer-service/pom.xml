@@ -62,6 +62,11 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-bootstrap</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>de.codecentric</groupId>
+			<artifactId>spring-boot-admin-starter-client</artifactId>
+			<version>3.0.0-M4</version>
+		</dependency>
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
