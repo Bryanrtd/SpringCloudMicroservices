@@ -8,7 +8,7 @@ import com.microservice.customerservice.entity.Customer;
 import com.microservice.customerservice.entity.Region;
 
 public interface CustomerRepository extends JpaRepository<Customer, Long>{
-    public Customer findByhNumberID(String numberID);
+    public Customer findByNumberID(String numberID);
     public List<Customer> findByLastName(String lastName);
     public List<Customer> findByRegion(Region region);
 
